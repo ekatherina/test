@@ -1,0 +1,147 @@
+<script type="text/javascript">
+var feeds=[
+{url:"http://windveranderung.blogspot.com", id: "", categories:['Задания']},
+{url:"http://vintagecafecard.blogspot.com", id: 1221741521339587554, categories:['Задания']},
+{url:"http://timelibero.blogspot.com", id: 7106890482385266730, categories:['скрап-задания']},
+{url:"http://meaning-scrap.blogspot.com", id:7887946941478068222, categories:['Задания']},
+{url:"http://challenge-km-shop.blogspot.com", id:794815800264638843, categories:['задание']},
+{url:"http://talya-club.blogspot.com", id:4391062706921658758, categories:['завдання']},
+{url:"http://dhlae.blogspot.com", id:3893631075656860076, categories:['задание']},
+{url:"http://shabby-scrap.blogspot.com", id:3676437630880504227, categories:['Задание']},
+{url:"http://happyscrapmoments.blogspot.com", id:3678795521253734057, categories:['Задание']},
+{url:"http://jkdesignstudio.blogspot.com", id:9131632551262891599, categories:['Задания']},
+{url:"http://blog-ilovescrap.blogspot.com", id:6037985726728315200, categories:['задание-конкурс']},
+{url:"http://arttocreate.blogspot.com", id:8281346398457194853, categories: ['задания']},
+{url:"http://hobbyvsemts.blogspot.com", id:4958239578398686057, categories: ['Скрап-задание']},
+{url:"http://zagotovo4ka.blogspot.com", id:8923792782455118584, categories: ['Задания по скрапбукингу']},
+{url:"http://sovushkaslavia.blogspot.com", id:5995380303966581514, categories: ['тематическое задание']},
+{url:"http://crafty-ann.blogspot.com", id:8049092582747187091, categories: ['задание']},
+{url:"http://mag-fantasy.blogspot.com", id:7135414134938090231, categories: ['Задания']},
+{url:"http://kafescrapomama.blogspot.com", id:9215030326659692664, categories: ['задание']},
+{url:"http://scrapvrn.blogspot.com", id:4246252033538742429, categories: ['Тематические задания']},
+{url:"http://10000talantov.blogspot.com", id:1931391509547821999, categories: ['задание']},
+{url:"http://volga-scrap.blogspot.com", id:3387646251035871781, categories: ['Задания']},
+{url:"http://scrapogoliki-shop.blogspot.com", id:2831746847456500217, categories: ['задания']},
+{url:"http://modnoe-hobby.blogspot.com", id:4312325795929625103, categories: ['задание']},
+{url:"http://scrapclub-donetsk.blogspot.com", id:2195761967274716724, categories: ['Тематические задания']},
+{url:"http://scrapclub.kiev.ua", id:6024807308765330639, categories: ['задание']},
+{url:"http://scrapcraft-ru.blogspot.com.es", id:2094977797813066663, categories: ['задание']},
+{url:"http://rermesla.blogspot.com", id:2290066866282772696, categories: ['Задание']},
+{url:"http://scrapkopilka.blogspot.com", id:1793545169498264106, categories: ['Задание']},
+{url:"http://smile-and-scrap.blogspot.cz", id:734392780869534254, categories: ['задания']},
+{url:"http://scrap-tea.blogspot.com", id:1461349751190621662, categories: ['задания']},
+{url:"http://blog.artchoice.com", id:5090313152826915583, categories: ['задания']},
+{url:"http://scrapulechki.blogspot.com", id:55017041818565219, categories: ['задание']},
+{url:"http://scrapim-na-radost.blogspot.com",id: "523336197971067833", categories: ['в тренде!', 'задание']},
+{url:"http://anna-scraps.blogspot.com",id: "", categories: ['тематические задания']},
+{url:"http://paperdvizhnik.blogspot.com",id: "", categories: ['задание']},
+{url:"http://paper-ladybirds.blogspot.com",id: "", categories: ['задание']},
+{url:"http://zhazhda-tvorchestva.blogspot.com",id: "", categories: ['Игры разума']},
+{url:"http://shabby-chic-ru.blogspot.com",id: "", categories: ['Задание']},
+{url:"http://scrapassorti.blogspot.de",id: "", categories: ['Задания']},
+{url:"http://scrap-fabrica.blogspot.com",id: "", categories: ['CREATE and SHARE']},
+{url:"http://blogscrapgallery.blogspot.com",id: "", categories: ['Задания']},
+{url:"http://devici-masterici.blogspot.com",id: "", categories: ['Задания']},
+{url:"http://domikrukodelnicy.blogspot.com",id: "", categories: ['Задание']},
+{url:"http://atstudiya.blogspot.com",id: "", categories: ['Творческие ЗАДАНИЯ']},
+{url:"http://scrapkrsk.blogspot.com",id: "", categories: ['мини']},
+{url:"http://liftsummercrafts.blogspot.com", id: "", categories: ['Cardmaking']},
+{url:"http://art-piaskownica.blogspot.com", id: "", categories: ['GDT']},
+{url:"http://13artspl.blogspot.com", id: "", categories: ['Challenge']},
+{url:"http://stampsblog.zgharda.com", id: "", categories: ['ЗАВДАННЯ ВІД ШТАМПУВАЛЬНІ']},
+{url:"http://scrapsteampunk.blogspot.com", id: "", categories: ['задания']},
+{url:"http://studioscrapbooking.blogspot.com", id: "", categories: ['палитра', 'креативные задания']},
+{url:"http://bymamayaga.blogspot.com",id: "", categories: ['Лукоморье', 'Кабинет Алхимика']},
+{url:"http://scrapmagik-shop.blogspot.com", id: "", categories: ['тематическое задание', 'задание']},
+{url:"http://sibscrap.blogspot.com", id: "", categories: ['Спец-задание от дизайнера']},
+{url:"http://mari-art-scrap.blogspot.com", id: "", categories: ['тематическое задание']},
+{url:"http://memuaris.blogspot.com", id: "", categories: ['конкурс']},
+{url:"http://sandee-and-amelie.blogspot.com", id: "", categories: ['challenge']},
+{url:"http://journal.scrap-info.com", id: "", categories: ['задание']},
+{url:"http://fabrika212.blogspot.com", id: "", categories: ['Задания', 'Скетч', 'Палитра']},
+{url:"http://dekograd.blogspot.com", id: "", categories: ['Задания']},
+{url:"http://scrapberrys.blogspot.com", id: "", categories: ['задание']}
+];
+
+//FeedManager app
+//�[ekatherina.borunova@gmail.com][2013]
+//All Rights Reserved
+//v 1.1
+//Parse FEED
+//http://challengemanager.somee.com/feedManager_v1.js
+
+function GetFeedData(feedUrl){
+        $.ajax({
+        type: "GET",
+        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=1000&callback=?&q=' + encodeURIComponent(feedUrl),
+        dataType: 'json',
+        error: function(){
+            console.log('Unable to load feed, Incorrect path or invalid feed');
+        },
+        success: function(xml){
+
+            if(xml.responseStatus != 200)
+                return;
+
+            postlist = xml.responseData.feed.entries;
+            if(postlist.length<=0)
+                   return;
+
+            var blogEntry ="<div style='clear: both; float: left;width: 100%; border-top:1px solid #aaa; padding-bottom: 20px;'>
+";
+            blogEntry += "<h3 class='post-title entry-title' style='padding:10px'>
+<a href='"+xml.responseData.feed.link+"'>"+xml.responseData.feed.title+"</a></h3>
+";            
+            $.each(postlist, function(idx, data) {
+                   var imgs = $(data.content).find('img');
+
+                   var entryAlignment="";
+                   if(idx%2==0) entryAlignment="clear: both;float: left;";
+                   else entryAlignment="float: left; padding-left: 30px";
+
+                   var challengeEntry = "<div class='entry' style='"+entryAlignment+" width: 50%'>
+";
+                   if(imgs.length>0){
+                       challengeEntry += "<img height='100' src='"+imgs[0].src+"'/>";
+                   }
+                   else challengeEntry += "<img height='100' src='http://challengemanager.somee.com/challenge-yourself-and-have-fun.png'/>";
+                   challengeEntry += "<br/><a href='"+data.link+"'><b>"+data.title +"</b></a><br/>(" +data.publishedDate+")";                 
+                   challengeEntry +="</div>
+";
+
+                   blogEntry +=challengeEntry;
+            });//each
+
+            //if(postlist.length<=0) blogEntry += "<div class='entry'>
+no active challenges</div>
+<br/>";
+
+            blogEntry += "</div>
+<br/><br/>";
+
+            $('#challengeList').append(blogEntry);
+        }//success
+       });//ajax
+}
+
+//feeds is array of objects={url="", categories:["", ""]}
+function CreateChallengesList(divId, feeds){
+ var postfix="/feeds/posts/default/-/{category}?published-min={min}&orderby=published";
+
+ var today = new Date();
+ today.setMonth(today.getMonth()-1);
+ postfix = postfix.replace("{min}", today.toISOString());
+ 
+    $('#'+divId).append("<p>
+Challenges from " + today.toDateString() + "</p>
+");
+
+    $.each(feeds, function(idx, data) {
+              GetFeedData(feeds[idx].url+postfix.replace("{category}", feeds[idx].categories[0]));
+    });
+}
+
+$(document).ready((function(){
+   CreateChallengesList('challengeList',feeds);
+}));
+</script>
